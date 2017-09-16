@@ -1,1 +1,1 @@
-# Fogvent using .Net Core & Mongo DB & Angular 
+# Fogvent using .Net Core & MS SQL Server & Angular 
