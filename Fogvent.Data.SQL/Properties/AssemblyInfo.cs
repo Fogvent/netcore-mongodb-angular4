@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Fogvent.Models")]
+[assembly: AssemblyTitle("Fogvent.Data.SQL")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Fogvent.Models")]
+[assembly: AssemblyProduct("Fogvent.Data.SQL")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f84b2f54-9735-4a0f-b569-c2692d6e1407")]
+[assembly: Guid("ad0a5131-d1fb-479f-82da-5c1e2b88e9cf")]
 
 // Version information for an assembly consists of the following four values:
 //
