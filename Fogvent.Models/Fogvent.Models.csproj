@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>f84b2f54-9735-4a0f-b569-c2692d6e1407</ProjectGuid>
+    <ProjectGuid>bbebd9ed-d541-40c2-a919-e160938b7440</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Fogvent.Models</RootNamespace>

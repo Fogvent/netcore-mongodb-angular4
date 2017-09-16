@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fogvent.Models.Entities
+namespace Fogvent.Models
 {
-    class Class1
+    public class Class1
     {
     }
 }
