@@ -5,10 +5,11 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Fogvent.Data.Common;
+using Fogvent.Models.Entities;
 
 namespace Fogvent.Data.SQL
 {
-    public class EfRepository<TEntity> : IRepository<TEntity> where TEntity : class
+    public class EfRepository<TEntity> : IRepository<TEntity> where TEntity : EntityBase
     {
         #region Fields
 

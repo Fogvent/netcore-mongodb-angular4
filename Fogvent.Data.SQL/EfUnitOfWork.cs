@@ -1,34 +1,41 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Fogvent.Data.Common;
+using Fogvent.Models.Entities;
 
 namespace Fogvent.Data.SQL
 {
     public class EfUnitOfWork : DbContext, IUnitOfWork
     {
-        private DbContext _context;
+        private readonly DbContext _context;
 
         public EfUnitOfWork(DbContext context)
         {
-            if (context == null)
-                throw new ArgumentNullException("context");
+            if (context == null) throw new Exception("Context cannot be null");
 
             _context = context;
         }
 
 
-        public IRepository<T> RepositoryFor<T>() where T : class
+        public IRepository<TEntity> RepositoryFor<TEntity>() where TEntity : EntityBase
         {
-           return  new EfRepository<T>(_context);
+            return new EfRepository<TEntity>(_context);
         }
 
-        public int SaveChanges()
+        public override int SaveChanges()
         {
-            return _context.SaveChanges();
+            foreach (var entry in ChangeTracker.Entries<EntityBase>())
+            {
+                var entity = entry.Entity;
+                if (entry.State == EntityState.Added)
+                {
+                    entity.CreatedOn = DateTime.Now;
+                    entity.ModifiedOn = DateTime.Now;
+                }
+                else if (entry.State == EntityState.Modified)
+                    entity.ModifiedOn = DateTime.Now;
+            }
+            return base.SaveChanges();
         }
 
         public void Dispose()

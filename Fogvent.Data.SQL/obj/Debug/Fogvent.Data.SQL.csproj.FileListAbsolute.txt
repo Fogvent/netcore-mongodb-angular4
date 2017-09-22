@@ -10,3 +10,5 @@ E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debu
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.csprojResolveAssemblyReference.cache
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.dll
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.pdb
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Fogvent.Models.dll
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Fogvent.Models.pdb

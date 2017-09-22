@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Fogvent.Data.Common
 {
-    public interface IRepository<TEntity>:IDisposable
+    public interface IRepository<TEntity> : IDisposable
     {
         IQueryable<TEntity> Get(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
             IList<Expression<Func<TEntity, object>>> includedProperties = null, int? pageIndex = null, int? pageSize = null);
-        Task<ICollection<TEntity>> GetAsync(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null, 
+        Task<ICollection<TEntity>> GetAsync(Expression<Func<TEntity, bool>> filter = null, Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>> orderBy = null,
             IList<Expression<Func<TEntity, object>>> includedProperties = null, int? pageIndex = null, int? pageSize = null);
         TEntity GetById(object id);
         Task<TEntity> GetAsyncById(object id);

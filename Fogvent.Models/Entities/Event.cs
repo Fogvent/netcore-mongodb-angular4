@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Fogvent.Models.Entities
 {
-    public class Event : IEntity
+    public class Event : EntityBase
     {
     }
 }

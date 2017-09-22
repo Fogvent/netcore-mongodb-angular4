@@ -2,3 +2,4 @@ E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Core\bin\Debug\Fo
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Core\bin\Debug\Fogvent.Core.pdb
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Core\obj\Debug\Fogvent.Core.dll
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Core\obj\Debug\Fogvent.Core.pdb
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Core\obj\Debug\Fogvent.Core.csprojResolveAssemblyReference.cache

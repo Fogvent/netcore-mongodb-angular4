@@ -1,0 +1,9 @@
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\Fogvent.Data.Repositories.dll
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\Fogvent.Data.Repositories.pdb
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\Fogvent.Data.Common.dll
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\Fogvent.Models.dll
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\Fogvent.Data.Common.pdb
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\Fogvent.Models.pdb
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\obj\Debug\Fogvent.Data.Repositories.csprojResolveAssemblyReference.cache
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\obj\Debug\Fogvent.Data.Repositories.dll
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\obj\Debug\Fogvent.Data.Repositories.pdb
