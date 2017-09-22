@@ -47,8 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EfUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository.cs" />
+    <Compile Include="EfRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fogvent.Data.Common\Fogvent.Data.Common.csproj">

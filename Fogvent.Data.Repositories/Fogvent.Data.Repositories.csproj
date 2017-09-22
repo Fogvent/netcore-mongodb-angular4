@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0DBEF9BD-4564-4B0B-8F3D-9E115E3CE713}</ProjectGuid>
+    <ProjectGuid>{D1AB2211-62FD-4989-A5F9-11CA83322768}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Fogvent.Data.Common</RootNamespace>
-    <AssemblyName>Fogvent.Data.Common</AssemblyName>
+    <RootNamespace>Fogvent.Data.Repositories</RootNamespace>
+    <AssemblyName>Fogvent.Data.Repositories</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,10 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatabaseProviderEnum.cs" />
-    <Compile Include="IRepository.cs" />
-    <Compile Include="IUnitOfWork.cs" />
+    <Compile Include="Interfaces\IEventRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Implementations\EventRepository.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Fogvent.Data.Common\Fogvent.Data.Common.csproj">
+      <Project>{0dbef9bd-4564-4b0b-8f3d-9e115e3ce713}</Project>
+      <Name>Fogvent.Data.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Fogvent.Models\Fogvent.Models.csproj">
+      <Project>{bbebd9ed-d541-40c2-a919-e160938b7440}</Project>
+      <Name>Fogvent.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
