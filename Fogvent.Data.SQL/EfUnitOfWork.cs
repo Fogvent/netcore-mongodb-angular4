@@ -5,7 +5,7 @@ using Fogvent.Models.Entities;
 
 namespace Fogvent.Data.SQL
 {
-    public class EfUnitOfWork : DbContext, IUnitOfWork
+    public class EfUnitOfWork : IUnitOfWork
     {
         #region Fields
 
@@ -14,8 +14,9 @@ namespace Fogvent.Data.SQL
         #endregion
 
         #region Constructor
-        public EfUnitOfWork(DbContext context)
+        public EfUnitOfWork()
         {
+            DbContext context = new AppContext();
             if (context == null) throw new Exception("Context cannot be null");
 
             _context = context;
@@ -29,9 +30,9 @@ namespace Fogvent.Data.SQL
             return new EfRepository<TEntity>(_context);
         }
 
-        public override int SaveChanges()
+        public int SaveChanges()
         {
-            foreach (var entry in ChangeTracker.Entries<EntityBase>())
+            foreach (var entry in _context.ChangeTracker.Entries<EntityBase>())
             {
                 var entity = entry.Entity;
                 if (entry.State == EntityState.Added)
@@ -42,7 +43,7 @@ namespace Fogvent.Data.SQL
                 else if (entry.State == EntityState.Modified)
                     entity.ModifiedOn = DateTime.Now;
             }
-            return base.SaveChanges();
+            return _context.SaveChanges();
         }
 
         public void Dispose()

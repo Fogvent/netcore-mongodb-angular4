@@ -13,11 +13,13 @@ namespace Fogvent.Models.Entities
 
         [Key]
         public Guid Id { get; set; }
-
         [Required]
         public DateTime CreatedOn { get; set; }
-
+        //[Required]
+        //public User CreatedBy { get; set; }
         [Required]
         public DateTime ModifiedOn { get; set; }
+        //[Required]
+        //public User ModifiedBy { get; set; }
     }
 }

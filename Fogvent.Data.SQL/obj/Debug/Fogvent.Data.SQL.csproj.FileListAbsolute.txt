@@ -12,3 +12,5 @@ E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debu
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.pdb
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Fogvent.Models.dll
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Fogvent.Models.pdb
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.Migrations.DatabaseInit.resources
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.csproj.GenerateResource.Cache
