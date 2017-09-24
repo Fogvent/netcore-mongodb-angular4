@@ -20,8 +20,9 @@ namespace Fogvent.Data.SQL
 
         #region Constructor
 
-        public EfRepository(DbContext context)
+        public EfRepository()
         {
+            DbContext context = new AppContext();
             if (context == null) throw new Exception("Context cannot be null");
 
             Context = context;

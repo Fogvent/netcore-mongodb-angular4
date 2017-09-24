@@ -27,7 +27,7 @@ namespace Fogvent.Data.SQL
         #region Interface Implementation
         public IRepository<TEntity> RepositoryFor<TEntity>() where TEntity : EntityBase
         {
-            return new EfRepository<TEntity>(_context);
+            return new EfRepository<TEntity>();
         }
 
         public int SaveChanges()

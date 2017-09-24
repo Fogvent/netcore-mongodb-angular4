@@ -7,3 +7,10 @@ E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\obj\Debug\Fogvent.Data.Repositories.csprojResolveAssemblyReference.cache
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\obj\Debug\Fogvent.Data.Repositories.dll
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\obj\Debug\Fogvent.Data.Repositories.pdb
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\EntityFramework.dll
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\Fogvent.Models.dll.config
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Repositories\bin\Debug\EntityFramework.xml

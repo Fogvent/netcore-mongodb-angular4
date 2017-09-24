@@ -16,6 +16,11 @@ namespace Fogvent.Data.SQL
 
         #region Entities
         public DbSet<Event> Events { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<UserRole> UsersRoles { get; set; }
+        public DbSet<UserLogin> UserLogins { get; set; }
+        public DbSet<UserClaim> UserClaims { get; set; }
 
         #endregion
 

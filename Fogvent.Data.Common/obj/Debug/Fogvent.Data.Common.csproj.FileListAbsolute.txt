@@ -5,3 +5,10 @@ E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\obj\D
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\obj\Debug\Fogvent.Data.Common.csprojResolveAssemblyReference.cache
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\bin\Debug\Fogvent.Models.dll
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\bin\Debug\Fogvent.Models.pdb
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\bin\Debug\EntityFramework.dll
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\bin\Debug\Fogvent.Models.dll.config
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\bin\Debug\EntityFramework.xml
