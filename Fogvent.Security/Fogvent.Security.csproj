@@ -68,14 +68,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AppUser.cs" />
     <Compile Include="FilterConfig.cs" />
+    <Compile Include="Migrations\201709261022569_SecurityContextInit.cs" />
+    <Compile Include="Migrations\201709261022569_SecurityContextInit.Designer.cs">
+      <DependentUpon>201709261022569_SecurityContextInit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="SecurityContext.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fogvent.Models\Fogvent.Models.csproj">
+      <Project>{bbebd9ed-d541-40c2-a919-e160938b7440}</Project>
+      <Name>Fogvent.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201709261022569_SecurityContextInit.resx">
+      <DependentUpon>201709261022569_SecurityContextInit.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
