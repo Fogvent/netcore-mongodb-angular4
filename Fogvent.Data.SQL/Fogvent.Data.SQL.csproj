@@ -38,6 +38,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,18 +48,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppContext.cs" />
+    <Compile Include="EfUnitOfWork.cs" />
+    <Compile Include="Migrations\201709231405288_DatabaseInit.cs" />
+    <Compile Include="Migrations\201709231405288_DatabaseInit.Designer.cs">
+      <DependentUpon>201709231405288_DatabaseInit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository.cs" />
+    <Compile Include="EfRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fogvent.Data.Common\Fogvent.Data.Common.csproj">
       <Project>{0dbef9bd-4564-4b0b-8f3d-9e115e3ce713}</Project>
       <Name>Fogvent.Data.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Fogvent.Models\Fogvent.Models.csproj">
+      <Project>{bbebd9ed-d541-40c2-a919-e160938b7440}</Project>
+      <Name>Fogvent.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201709231405288_DatabaseInit.resx">
+      <DependentUpon>201709231405288_DatabaseInit.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
