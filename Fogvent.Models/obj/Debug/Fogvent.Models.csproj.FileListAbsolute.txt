@@ -11,3 +11,4 @@ E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Models\bin\Debug\
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Models\obj\Debug\Fogvent.Models.dll
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Models\obj\Debug\Fogvent.Models.pdb
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Models\obj\Debug\Fogvent.Models.csprojResolveAssemblyReference.cache

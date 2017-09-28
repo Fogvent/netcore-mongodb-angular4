@@ -13,7 +13,7 @@ namespace Fogvent.Data.SQL
     {
         #region Fields
 
-        protected readonly DbContext Context;
+        private readonly DbContext _context;
         private readonly DbSet<TEntity> _entitySet;
 
         #endregion
@@ -25,8 +25,8 @@ namespace Fogvent.Data.SQL
             DbContext context = new AppContext();
             if (context == null) throw new Exception("Context cannot be null");
 
-            Context = context;
-            Context.Database.CommandTimeout = 180;
+            _context = context;
+            _context.Database.CommandTimeout = 180;
             _entitySet = context.Set<TEntity>();
         }
 
@@ -101,7 +101,7 @@ namespace Fogvent.Data.SQL
         public void Update(TEntity entity)
         {
             _entitySet.Attach(entity);
-            Context.Entry(entity).State = EntityState.Modified;
+            _context.Entry(entity).State = EntityState.Modified;
         }
 
         public void Delete(Expression<Func<TEntity, bool>> where)
@@ -109,7 +109,7 @@ namespace Fogvent.Data.SQL
             var entity = _entitySet.Find(where);
             if (entity != null)
             {
-                if (Context.Entry(entity).State == EntityState.Detached)
+                if (_context.Entry(entity).State == EntityState.Detached)
                     _entitySet.Attach(entity);
 
                 _entitySet.Remove(entity);
@@ -120,7 +120,7 @@ namespace Fogvent.Data.SQL
         {
             foreach (var entity in entities)
             {
-                if (Context.Entry(entity).State == EntityState.Detached)
+                if (_context.Entry(entity).State == EntityState.Detached)
                     _entitySet.Attach(entity);
             }
 
@@ -129,12 +129,12 @@ namespace Fogvent.Data.SQL
 
         public void Detach(TEntity entity)
         {
-            Context.Entry(entity).State = EntityState.Detached;
+            _context.Entry(entity).State = EntityState.Detached;
         }
 
         public void Dispose()
         {
-            Context?.Dispose();
+            _context?.Dispose();
         }
 
         #endregion
