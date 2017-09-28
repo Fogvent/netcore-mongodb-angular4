@@ -27,6 +27,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.Data.Repositories", "Fogvent.Data.Repositories\Fogvent.Data.Repositories.csproj", "{D1AB2211-62FD-4989-A5F9-11CA83322768}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.Data.Tests", "Fogvent.Test.Data\Fogvent.Data.Tests.csproj", "{6324370B-EE3F-43FF-87F8-CB7BD52E539F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.Repositories.Test", "Fogvent.Test.Repositories\Fogvent.Repositories.Test.csproj", "{2580DAA1-4D9C-46B1-AE9A-3BAFAE7768B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{D1AB2211-62FD-4989-A5F9-11CA83322768}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1AB2211-62FD-4989-A5F9-11CA83322768}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1AB2211-62FD-4989-A5F9-11CA83322768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6324370B-EE3F-43FF-87F8-CB7BD52E539F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6324370B-EE3F-43FF-87F8-CB7BD52E539F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6324370B-EE3F-43FF-87F8-CB7BD52E539F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6324370B-EE3F-43FF-87F8-CB7BD52E539F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2580DAA1-4D9C-46B1-AE9A-3BAFAE7768B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2580DAA1-4D9C-46B1-AE9A-3BAFAE7768B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2580DAA1-4D9C-46B1-AE9A-3BAFAE7768B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2580DAA1-4D9C-46B1-AE9A-3BAFAE7768B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,5 +80,7 @@ Global
 		{BBEBD9ED-D541-40C2-A919-E160938B7440} = {2A690EAC-22D0-4917-86A4-7621788174A0}
 		{D4248D0B-C170-4FD0-A8D9-8192AF42FB28} = {2A690EAC-22D0-4917-86A4-7621788174A0}
 		{D1AB2211-62FD-4989-A5F9-11CA83322768} = {B3E31FE3-BB32-4CCD-B6B2-A2BCB354B0CE}
+		{6324370B-EE3F-43FF-87F8-CB7BD52E539F} = {4D7A8EC2-EE0C-4A54-94B4-2C20F5530E2A}
+		{2580DAA1-4D9C-46B1-AE9A-3BAFAE7768B8} = {4D7A8EC2-EE0C-4A54-94B4-2C20F5530E2A}
 	EndGlobalSection
 EndGlobal

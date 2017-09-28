@@ -5,11 +5,10 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Fogvent.Data.Common;
-using Fogvent.Models.Entities;
 
 namespace Fogvent.Data.SQL
 {
-    public class EfRepository<TEntity> : IRepository<TEntity> where TEntity : EntityBase
+    public class EfRepository<TEntity> : IRepository<TEntity> where TEntity : class
     {
         #region Fields
 
@@ -45,12 +44,12 @@ namespace Fogvent.Data.SQL
             orderBy?.Invoke(entities);
 
             //Including
-            if (includedProperties!=null)
+            if (includedProperties != null)
             {
                 foreach (var property in includedProperties)
                     entities = entities.Include(property);
             }
-            
+
             //Paging
             if (pageIndex.HasValue && pageSize.HasValue) entities = entities.Skip(pageSize.Value * pageIndex.Value).Take(pageSize.Value);
 
@@ -86,7 +85,7 @@ namespace Fogvent.Data.SQL
         {
             return await _entitySet.FindAsync(id);
         }
-        
+
 
         public TEntity Insert(TEntity entity)
         {

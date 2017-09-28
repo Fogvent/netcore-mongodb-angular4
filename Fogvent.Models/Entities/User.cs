@@ -9,9 +9,9 @@ namespace Fogvent.Models.Entities
     {
         public User()
         {
-            Roles = new List<IdentityUserRole>();
-            Claims = new List<IdentityUserClaim>();
-            Logins = new List<IdentityUserLogin>();
+            Roles = new HashSet<IdentityUserRole>();
+            Claims = new HashSet<IdentityUserClaim>();
+            Logins = new HashSet<IdentityUserLogin>();
         }
 
         public string FirstName { get; set; }
