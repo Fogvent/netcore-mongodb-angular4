@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNet.Identity;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Owin;
+
+[assembly: OwinStartup(typeof(Fogvent.Security.Startup))]
 
 namespace Fogvent.Security
 {
@@ -13,11 +11,12 @@ namespace Fogvent.Security
     {
         public void Configuration(IAppBuilder app)
         {
-            app.UseCookieAuthentication(new CookieAuthenticationOptions
-            {
-                AuthenticationType = "ApplicationCookie",
-                LoginPath = new PathString("/auth/login")
-            });
+            // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=316888
+
+            CookieAuthenticationOptions options = new CookieAuthenticationOptions();
+            options.AuthenticationType = DefaultAuthenticationTypes.ApplicationCookie;
+            options.LoginPath = new PathString("/account/login");
+            app.UseCookieAuthentication(options);
         }
     }
 }
