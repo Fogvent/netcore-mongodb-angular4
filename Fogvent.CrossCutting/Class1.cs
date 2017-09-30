@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fogvent.Core
+namespace Fogvent.CrossCutting
 {
     public class Class1
     {

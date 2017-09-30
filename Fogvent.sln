@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.Data.Tests", "Fogve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.Repositories.Test", "Fogvent.Test.Repositories\Fogvent.Repositories.Test.csproj", "{2580DAA1-4D9C-46B1-AE9A-3BAFAE7768B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.CrossCutting", "Fogvent.CrossCutting\Fogvent.CrossCutting.csproj", "{E828A29A-9963-4810-B37F-74E6DDC62FFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{2580DAA1-4D9C-46B1-AE9A-3BAFAE7768B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2580DAA1-4D9C-46B1-AE9A-3BAFAE7768B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2580DAA1-4D9C-46B1-AE9A-3BAFAE7768B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E828A29A-9963-4810-B37F-74E6DDC62FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E828A29A-9963-4810-B37F-74E6DDC62FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E828A29A-9963-4810-B37F-74E6DDC62FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E828A29A-9963-4810-B37F-74E6DDC62FFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,5 +88,6 @@ Global
 		{D1AB2211-62FD-4989-A5F9-11CA83322768} = {B3E31FE3-BB32-4CCD-B6B2-A2BCB354B0CE}
 		{6324370B-EE3F-43FF-87F8-CB7BD52E539F} = {4D7A8EC2-EE0C-4A54-94B4-2C20F5530E2A}
 		{2580DAA1-4D9C-46B1-AE9A-3BAFAE7768B8} = {4D7A8EC2-EE0C-4A54-94B4-2C20F5530E2A}
+		{E828A29A-9963-4810-B37F-74E6DDC62FFE} = {2A690EAC-22D0-4917-86A4-7621788174A0}
 	EndGlobalSection
 EndGlobal
