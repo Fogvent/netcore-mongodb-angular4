@@ -5,15 +5,15 @@ E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debu
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\EntityFramework.SqlServer.dll
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Fogvent.Data.Common.dll
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Fogvent.Models.dll
-E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Fogvent.Data.Common.pdb
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Fogvent.Models.pdb
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Fogvent.Models.dll.config
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\EntityFramework.xml
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\EntityFramework.SqlServer.xml
-E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.csprojResolveAssemblyReference.cache
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.Migrations.DatabaseInit.resources
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.csproj.GenerateResource.Cache

@@ -5,15 +5,14 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Fogvent.Data.Common;
-using Fogvent.Models.Entities;
 
 namespace Fogvent.Data.SQL
 {
-    public class EfRepository<TEntity> : IRepository<TEntity> where TEntity : EntityBase
+    public class EfRepository<TEntity> : IRepository<TEntity> where TEntity : class
     {
         #region Fields
 
-        protected readonly DbContext Context;
+        private readonly DbContext _context;
         private readonly DbSet<TEntity> _entitySet;
 
         #endregion
@@ -25,8 +24,8 @@ namespace Fogvent.Data.SQL
             DbContext context = new AppContext();
             if (context == null) throw new Exception("Context cannot be null");
 
-            Context = context;
-            Context.Database.CommandTimeout = 180;
+            _context = context;
+            _context.Database.CommandTimeout = 180;
             _entitySet = context.Set<TEntity>();
         }
 
@@ -45,12 +44,12 @@ namespace Fogvent.Data.SQL
             orderBy?.Invoke(entities);
 
             //Including
-            if (includedProperties!=null)
+            if (includedProperties != null)
             {
                 foreach (var property in includedProperties)
                     entities = entities.Include(property);
             }
-            
+
             //Paging
             if (pageIndex.HasValue && pageSize.HasValue) entities = entities.Skip(pageSize.Value * pageIndex.Value).Take(pageSize.Value);
 
@@ -86,7 +85,7 @@ namespace Fogvent.Data.SQL
         {
             return await _entitySet.FindAsync(id);
         }
-        
+
 
         public TEntity Insert(TEntity entity)
         {
@@ -101,7 +100,7 @@ namespace Fogvent.Data.SQL
         public void Update(TEntity entity)
         {
             _entitySet.Attach(entity);
-            Context.Entry(entity).State = EntityState.Modified;
+            _context.Entry(entity).State = EntityState.Modified;
         }
 
         public void Delete(Expression<Func<TEntity, bool>> where)
@@ -109,7 +108,7 @@ namespace Fogvent.Data.SQL
             var entity = _entitySet.Find(where);
             if (entity != null)
             {
-                if (Context.Entry(entity).State == EntityState.Detached)
+                if (_context.Entry(entity).State == EntityState.Detached)
                     _entitySet.Attach(entity);
 
                 _entitySet.Remove(entity);
@@ -120,7 +119,7 @@ namespace Fogvent.Data.SQL
         {
             foreach (var entity in entities)
             {
-                if (Context.Entry(entity).State == EntityState.Detached)
+                if (_context.Entry(entity).State == EntityState.Detached)
                     _entitySet.Attach(entity);
             }
 
@@ -129,12 +128,12 @@ namespace Fogvent.Data.SQL
 
         public void Detach(TEntity entity)
         {
-            Context.Entry(entity).State = EntityState.Detached;
+            _context.Entry(entity).State = EntityState.Detached;
         }
 
         public void Dispose()
         {
-            Context?.Dispose();
+            _context?.Dispose();
         }
 
         #endregion
