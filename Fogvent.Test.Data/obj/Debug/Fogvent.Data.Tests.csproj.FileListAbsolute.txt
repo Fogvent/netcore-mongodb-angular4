@@ -1,0 +1,12 @@
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Test.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Test.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Test.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Test.Data\bin\Debug\Fogvent.Test.Data.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Test.Data\bin\Debug\Fogvent.Test.Data.pdb
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Test.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Test.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Test.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Test.Data\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Test.Data\obj\Debug\Fogvent.Data.Tests.csprojResolveAssemblyReference.cache
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Test.Data\obj\Debug\Fogvent.Test.Data.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Test.Data\obj\Debug\Fogvent.Test.Data.pdb

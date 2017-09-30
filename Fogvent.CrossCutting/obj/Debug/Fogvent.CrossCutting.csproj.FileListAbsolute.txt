@@ -1,0 +1,5 @@
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.CrossCutting\bin\Debug\Fogvent.CrossCutting.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.CrossCutting\bin\Debug\Fogvent.CrossCutting.pdb
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.CrossCutting\obj\Debug\Fogvent.CrossCutting.csprojResolveAssemblyReference.cache
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.CrossCutting\obj\Debug\Fogvent.CrossCutting.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.CrossCutting\obj\Debug\Fogvent.CrossCutting.pdb
