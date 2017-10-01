@@ -37,6 +37,7 @@ namespace Fogvent.Data.SQL
                 var entity = entry.Entity;
                 if (entry.State == EntityState.Added)
                 {
+                    entity.Id = new Guid();
                     entity.CreatedOn = DateTime.Now;
                     entity.ModifiedOn = DateTime.Now;
                 }

@@ -60,6 +60,14 @@
     <Compile Include="Migrations\201709231405288_DatabaseInit.Designer.cs">
       <DependentUpon>201709231405288_DatabaseInit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201710010905060_SecurityEntitiesInit.cs" />
+    <Compile Include="Migrations\201710010905060_SecurityEntitiesInit.Designer.cs">
+      <DependentUpon>201710010905060_SecurityEntitiesInit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710010921092_SecurityEntitiesChanges.cs" />
+    <Compile Include="Migrations\201710010921092_SecurityEntitiesChanges.Designer.cs">
+      <DependentUpon>201710010921092_SecurityEntitiesChanges.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EfRepository.cs" />
@@ -81,6 +89,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201709231405288_DatabaseInit.resx">
       <DependentUpon>201709231405288_DatabaseInit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710010905060_SecurityEntitiesInit.resx">
+      <DependentUpon>201710010905060_SecurityEntitiesInit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710010921092_SecurityEntitiesChanges.resx">
+      <DependentUpon>201710010921092_SecurityEntitiesChanges.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

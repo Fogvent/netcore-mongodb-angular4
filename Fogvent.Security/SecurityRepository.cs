@@ -13,7 +13,7 @@ using Owin;
 
 namespace Fogvent.Security
 {
-    public class SecurityRepository:IUserStore<User>,IUserPasswordStore<User>,IUserSecurityStampStore<User>
+    public class SecurityRepository:IUserStore<IdentityUser>,IUserPasswordStore<IdentityUser>,IUserSecurityStampStore<IdentityUser>
     {
         private readonly DbContext _context;
         private readonly IUserStore<IdentityUser> _userStore;
@@ -40,6 +40,31 @@ namespace Fogvent.Security
         }
 
         public Task DeleteAsync(User user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task CreateAsync(IdentityUser user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task UpdateAsync(IdentityUser user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task DeleteAsync(IdentityUser user)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<IdentityUser> IUserStore<IdentityUser, string>.FindByIdAsync(string userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        Task<IdentityUser> IUserStore<IdentityUser, string>.FindByNameAsync(string userName)
         {
             throw new NotImplementedException();
         }
@@ -85,5 +110,29 @@ namespace Fogvent.Security
         }
 
 
+        public Task SetPasswordHashAsync(IdentityUser user, string passwordHash)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<string> GetPasswordHashAsync(IdentityUser user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> HasPasswordAsync(IdentityUser user)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task SetSecurityStampAsync(IdentityUser user, string stamp)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<string> GetSecurityStampAsync(IdentityUser user)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
