@@ -1,19 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Autofac;
 using Fogvent.Core.Extensions;
-using Ninject.Modules;
+using Fogvent.Data.Common;
+using Fogvent.Data.SQL;
 
 namespace Fogvent.CrossCutting
 {
-    public class Modules:NinjectModule
+    public class Modules : Module
     {
-        public override void Load()
+        protected override void Load(ContainerBuilder builder)
         {
-            var SelectedProvider = "DefaultProvider".GetConfigurationValue();
-            Bind<>()
+            string selectedProvider = "DefaultProvider".GetConfigurationValue() ?? "MSSQL";
+
+            switch (selectedProvider)
+            {
+                case "MSSQL":
+                    RegisterMsSqlInterfaces(builder);
+                    break;
+
+                //Add Addional Providers
+                default:
+                    RegisterMsSqlInterfaces(builder);
+                    break;
+            }
+
+            base.Load(builder);
         }
+
+        private void RegisterMsSqlInterfaces(ContainerBuilder builder)
+        {
+            builder.RegisterGeneric(typeof(EfRepository<>)).As(typeof(IRepository<>));
+            builder.RegisterType<EfUnitOfWork>().As<IUnitOfWork>();
+        }
+
+
+
     }
 }
+

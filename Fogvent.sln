@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.Repositories.Test",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.CrossCutting", "Fogvent.CrossCutting\Fogvent.CrossCutting.csproj", "{E828A29A-9963-4810-B37F-74E6DDC62FFE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{73F84B5F-30CA-4537-9327-F1EA7A2E074A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
