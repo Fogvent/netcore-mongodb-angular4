@@ -1,6 +1,12 @@
-﻿namespace Fogvent.Core.Extensions
+﻿using System.Configuration;
+
+namespace Fogvent.Core.Extensions
 {
-    public class String
+    public static class String
     {
+        public static string GetConfigurationValue(this string key)
+        {
+            return ConfigurationSettings.AppSettings.Get(key);
+        }
     }
 }
