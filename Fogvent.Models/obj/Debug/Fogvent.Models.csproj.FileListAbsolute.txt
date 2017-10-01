@@ -11,3 +11,5 @@ E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Models\bin\Debug\
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Models\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Models\obj\Debug\Fogvent.Models.dll
 E:\Source Code\Learning\Fogvent\netcore-mssql-angular4\Fogvent.Models\obj\Debug\Fogvent.Models.pdb
+C:\Users\Weber\Desktop\Fogvent\netcore-mssql-angular4\Fogvent.Models\obj\Debug\Fogvent.Models.dll
+C:\Users\Weber\Desktop\Fogvent\netcore-mssql-angular4\Fogvent.Models\obj\Debug\Fogvent.Models.pdb
