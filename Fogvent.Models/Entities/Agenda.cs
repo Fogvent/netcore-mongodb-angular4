@@ -15,7 +15,7 @@ namespace Fogvent.Models.Entities
         public Guid EventId { get; set; }
 
         [ForeignKey("EventId")]
-        public Event Event { get; set; }
+        public virtual Event Event { get; set; }
 
         public virtual ICollection<AgendaSpeaker> AgendaSpeakers { get; set; }
     }

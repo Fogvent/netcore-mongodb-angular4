@@ -14,6 +14,7 @@ namespace Fogvent.Models.Entities
             EventAttendees = new HashSet<EventAttendee>();
             EventAdmins = new HashSet<EventAdmin>();
             EventTopics = new HashSet<EventTopic>();
+            Discussions = new HashSet<Discussion>();
         }
 
         [Required]
@@ -31,6 +32,7 @@ namespace Fogvent.Models.Entities
         public virtual ICollection<EventAttendee> EventAttendees { get; set; }
         public virtual ICollection<EventAdmin> EventAdmins { get; set; }
         public virtual ICollection<EventTopic> EventTopics { get; set; }
+        public virtual ICollection<Discussion> Discussions { get; set; }
 
     }
 }

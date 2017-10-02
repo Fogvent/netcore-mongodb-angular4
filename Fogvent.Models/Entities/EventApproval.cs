@@ -15,8 +15,8 @@ namespace Fogvent.Models.Entities
         public DateTime DecisionDate { get; set; }
 
         [ForeignKey("ApproverId")]
-        public User Approver { get; set; }
+        public virtual User Approver { get; set; }
         [ForeignKey("EventId")]
-        public Event Event { get; set; }
+        public virtual Event Event { get; set; }
     }
 }

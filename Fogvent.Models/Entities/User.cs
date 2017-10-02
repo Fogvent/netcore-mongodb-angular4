@@ -15,6 +15,8 @@ namespace Fogvent.Models.Entities
             EventAdmins = new HashSet<EventAdmin>();
             UserInterests = new HashSet<UserInterest>();
             EventApprovals = new HashSet<EventApproval>();
+            Discussions = new HashSet<Discussion>();
+            NotificationUsers = new HashSet<NotificationUser>();
         }
         [Required]
         public string UserName { get; set; }
@@ -40,6 +42,8 @@ namespace Fogvent.Models.Entities
         public virtual ICollection<EventAdmin> EventAdmins { get; set; }
         public virtual ICollection<UserInterest> UserInterests { get; set; }
         public virtual ICollection<EventApproval> EventApprovals { get; set; }
+        public virtual ICollection<Discussion> Discussions { get; set; }
+        public virtual ICollection<NotificationUser> NotificationUsers { get; set; }
 
     }
 }
