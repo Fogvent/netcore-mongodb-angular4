@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.12
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.Security", "Fogvent.Security\Fogvent.Security.csproj", "{6B80FACA-8570-456A-A412-DCD3EDBCBDE0}"
 EndProject
@@ -34,6 +34,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.CrossCutting", "Fogvent.CrossCutting\Fogvent.CrossCutting.csproj", "{E828A29A-9963-4810-B37F-74E6DDC62FFE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{73F84B5F-30CA-4537-9327-F1EA7A2E074A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.API", "Fogvent.API\Fogvent.API.csproj", "{5483B09D-C2CC-45A9-8E5F-E60A56098903}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +79,10 @@ Global
 		{E828A29A-9963-4810-B37F-74E6DDC62FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E828A29A-9963-4810-B37F-74E6DDC62FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E828A29A-9963-4810-B37F-74E6DDC62FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5483B09D-C2CC-45A9-8E5F-E60A56098903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5483B09D-C2CC-45A9-8E5F-E60A56098903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5483B09D-C2CC-45A9-8E5F-E60A56098903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5483B09D-C2CC-45A9-8E5F-E60A56098903}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,5 +97,9 @@ Global
 		{6324370B-EE3F-43FF-87F8-CB7BD52E539F} = {4D7A8EC2-EE0C-4A54-94B4-2C20F5530E2A}
 		{2580DAA1-4D9C-46B1-AE9A-3BAFAE7768B8} = {4D7A8EC2-EE0C-4A54-94B4-2C20F5530E2A}
 		{E828A29A-9963-4810-B37F-74E6DDC62FFE} = {2A690EAC-22D0-4917-86A4-7621788174A0}
+		{5483B09D-C2CC-45A9-8E5F-E60A56098903} = {8D2DD56B-D256-48F6-B695-43AD749BF54F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A74D90E1-AA10-4123-8D75-4F9D3918B985}
 	EndGlobalSection
 EndGlobal
