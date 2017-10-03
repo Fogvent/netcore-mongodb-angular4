@@ -1,13 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace Fogvent.Models.Entities
 {
-    [Table("AspNetUserLogins")]
-    public class UserLogin:IdentityUserLogin
+    public class UserLogin : EntityBase
     {
-        [Key]
-        public string Id { get; set; }
+        [Required]
+        public string LoginProvider { get; set; }
+        [Required]
+        public Guid UserId { get; set; }
+        [Required]
+        public DateTime LoginDateTime { get; set; }
+
+        [ForeignKey("UserId")]
+        public virtual User User { get; set; }
     }
 }

@@ -26,3 +26,7 @@ E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\obj\
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\obj\Debug\Fogvent.Security.csproj.GenerateResource.Cache
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\obj\Debug\Fogvent.Security.dll
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\obj\Debug\Fogvent.Security.pdb
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\bin\Debug\JWT.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Newtonsoft.Json.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\bin\Debug\JWT.xml
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Newtonsoft.Json.xml

@@ -4,7 +4,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace Fogvent.Security
 {
-    public class SecurityContext : IdentityDbContext<User>
+    public class SecurityContext : IdentityDbContext<IdentityUser>
     {
         #region Constructor
         public SecurityContext() : base("SQLContext")

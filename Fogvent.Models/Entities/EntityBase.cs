@@ -7,10 +7,10 @@ namespace Fogvent.Models.Entities
     {
         protected EntityBase()
         {
+            Id = new Guid();
             CreatedOn = DateTime.Now;
             ModifiedOn = DateTime.Now;
         }
-
         [Key]
         public Guid Id { get; set; }
         [Required]

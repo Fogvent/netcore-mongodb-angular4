@@ -1,10 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.AspNet.Identity.EntityFramework;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Fogvent.Models.Entities
 {
-    [Table("AspNetRoles")]
-    public class Role:IdentityRole
+    public class Role : EntityBase
     {
+        [Required]
+        public string Name { get; set; }
     }
 }

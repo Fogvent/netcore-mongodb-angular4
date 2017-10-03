@@ -40,3 +40,5 @@ E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.csproj.GenerateResource.Cache
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.dll
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.pdb
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.Migrations.SecurityEntitiesInit.resources
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.Migrations.SecurityEntitiesChanges.resources
