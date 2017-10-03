@@ -56,12 +56,15 @@
     <Compile Include="Entities\Agenda.cs" />
     <Compile Include="Entities\AgendaSpeaker.cs" />
     <Compile Include="Entities\Category.cs" />
+    <Compile Include="Entities\Discussion.cs" />
     <Compile Include="Entities\EntityBase.cs" />
     <Compile Include="Entities\Event.cs" />
     <Compile Include="Entities\EventAdmin.cs" />
     <Compile Include="Entities\EventApproval.cs" />
     <Compile Include="Entities\EventAttendee.cs" />
     <Compile Include="Entities\EventTopic.cs" />
+    <Compile Include="Entities\Notification.cs" />
+    <Compile Include="Entities\NotificationUser.cs" />
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Entities\Speaker.cs" />
     <Compile Include="Entities\Ticket.cs" />
