@@ -25,3 +25,4 @@ E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Models\bin\De
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Models\obj\Debug\Fogvent.Models.dll
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Models\obj\Debug\Fogvent.Models.pdb
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Models\obj\Debug\Fogvent.Models.csprojResolveAssemblyReference.cache
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Models\obj\Debug\Fogvent.Models.csproj.CoreCompileInputs.cache
