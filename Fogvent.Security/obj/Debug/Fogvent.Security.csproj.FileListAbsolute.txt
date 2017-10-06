@@ -30,4 +30,7 @@ E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\bin\
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Newtonsoft.Json.dll
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\bin\Debug\JWT.xml
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Newtonsoft.Json.xml
+<<<<<<< HEAD
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\obj\Debug\Fogvent.Security.csproj.CoreCompileInputs.cache
+=======
+>>>>>>> master
