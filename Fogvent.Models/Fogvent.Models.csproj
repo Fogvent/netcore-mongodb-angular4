@@ -56,12 +56,21 @@
     <Compile Include="Entities\Agenda.cs" />
     <Compile Include="Entities\AgendaSpeaker.cs" />
     <Compile Include="Entities\Category.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Entities\Discussion.cs" />
+>>>>>>> master
     <Compile Include="Entities\EntityBase.cs" />
     <Compile Include="Entities\Event.cs" />
     <Compile Include="Entities\EventAdmin.cs" />
     <Compile Include="Entities\EventApproval.cs" />
     <Compile Include="Entities\EventAttendee.cs" />
     <Compile Include="Entities\EventTopic.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="Entities\Notification.cs" />
+    <Compile Include="Entities\NotificationUser.cs" />
+>>>>>>> master
     <Compile Include="Entities\Role.cs" />
     <Compile Include="Entities\Speaker.cs" />
     <Compile Include="Entities\Ticket.cs" />
