@@ -1,0 +1,8 @@
+C:\Users\Weber\Desktop\Fogvent\netcore-mssql-angular4\Forgvent.Security\obj\Debug\Forgvent.Security.csprojResolveAssemblyReference.cache
+C:\Users\Weber\Desktop\Fogvent\netcore-mssql-angular4\Forgvent.Security\bin\Debug\Forgvent.Security.dll
+C:\Users\Weber\Desktop\Fogvent\netcore-mssql-angular4\Forgvent.Security\bin\Debug\Forgvent.Security.pdb
+C:\Users\Weber\Desktop\Fogvent\netcore-mssql-angular4\Forgvent.Security\bin\Debug\JWT.dll
+C:\Users\Weber\Desktop\Fogvent\netcore-mssql-angular4\Forgvent.Security\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Weber\Desktop\Fogvent\netcore-mssql-angular4\Forgvent.Security\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Weber\Desktop\Fogvent\netcore-mssql-angular4\Forgvent.Security\obj\Debug\Forgvent.Security.dll
+C:\Users\Weber\Desktop\Fogvent\netcore-mssql-angular4\Forgvent.Security\obj\Debug\Forgvent.Security.pdb
