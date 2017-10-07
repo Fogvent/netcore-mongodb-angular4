@@ -42,3 +42,7 @@ E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.pdb
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.Migrations.SecurityEntitiesInit.resources
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.Migrations.SecurityEntitiesChanges.resources
+<<<<<<< HEAD
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.SQL\obj\Debug\Fogvent.Data.SQL.csproj.CoreCompileInputs.cache
+=======
+>>>>>>> master

@@ -1,0 +1,10 @@
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.API\bin\Debug\netcoreapp1.1\Fogvent.API.deps.json
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.API\bin\Debug\netcoreapp1.1\Fogvent.API.runtimeconfig.json
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.API\bin\Debug\netcoreapp1.1\Fogvent.API.runtimeconfig.dev.json
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.API\bin\Debug\netcoreapp1.1\Fogvent.API.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.API\bin\Debug\netcoreapp1.1\Fogvent.API.pdb
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.API\obj\Debug\netcoreapp1.1\Fogvent.API.csprojResolveAssemblyReference.cache
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.API\obj\Debug\netcoreapp1.1\Fogvent.API.csproj.CoreCompileInputs.cache
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.API\obj\Debug\netcoreapp1.1\Fogvent.API.AssemblyInfo.cs
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.API\obj\Debug\netcoreapp1.1\Fogvent.API.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.API\obj\Debug\netcoreapp1.1\Fogvent.API.pdb

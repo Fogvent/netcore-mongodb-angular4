@@ -20,3 +20,4 @@ E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\b
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\obj\Debug\Fogvent.Data.Common.csprojResolveAssemblyReference.cache
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\obj\Debug\Fogvent.Data.Common.dll
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\obj\Debug\Fogvent.Data.Common.pdb
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Data.Common\obj\Debug\Fogvent.Data.Common.csproj.CoreCompileInputs.cache

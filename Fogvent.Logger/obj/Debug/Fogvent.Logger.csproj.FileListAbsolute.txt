@@ -1,0 +1,8 @@
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Logger\bin\Debug\Fogvent.Logger.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Logger\bin\Debug\Fogvent.Logger.pdb
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Logger\bin\Debug\log4net.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Logger\bin\Debug\log4net.xml
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Logger\obj\Debug\Fogvent.Logger.csprojResolveAssemblyReference.cache
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Logger\obj\Debug\Fogvent.Logger.csproj.CoreCompileInputs.cache
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Logger\obj\Debug\Fogvent.Logger.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Logger\obj\Debug\Fogvent.Logger.pdb

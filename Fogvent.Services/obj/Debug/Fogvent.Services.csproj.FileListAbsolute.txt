@@ -1,0 +1,6 @@
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Services\bin\Debug\Fogvent.Services.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Services\bin\Debug\Fogvent.Services.pdb
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Services\obj\Debug\Fogvent.Services.csprojResolveAssemblyReference.cache
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Services\obj\Debug\Fogvent.Services.csproj.CoreCompileInputs.cache
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Services\obj\Debug\Fogvent.Services.dll
+E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Services\obj\Debug\Fogvent.Services.pdb
