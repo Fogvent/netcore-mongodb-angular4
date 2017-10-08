@@ -60,6 +60,10 @@
       <Project>{AD0A5131-D1FB-479F-82DA-5C1E2B88E9CF}</Project>
       <Name>Fogvent.Data.SQL</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Fogvent.Logger\Fogvent.Logger.csproj">
+      <Project>{795c59bf-7c87-486d-947b-c15e64d3dc1e}</Project>
+      <Name>Fogvent.Logger</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
