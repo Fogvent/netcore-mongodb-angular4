@@ -30,7 +30,36 @@ E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\bin\
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Newtonsoft.Json.dll
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\bin\Debug\JWT.xml
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Newtonsoft.Json.xml
-<<<<<<< HEAD
 E:\Source Code\Repositories\Fogvent\netcore-mssql-angular4\Fogvent.Security\obj\Debug\Fogvent.Security.csproj.CoreCompileInputs.cache
-=======
->>>>>>> master
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Fogvent.Security.dll.config
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Fogvent.Security.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Fogvent.Security.pdb
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\EntityFramework.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Fogvent.Models.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\JWT.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Microsoft.Owin.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Microsoft.Owin.Security.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Owin.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Fogvent.Models.pdb
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Fogvent.Models.dll.config
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\EntityFramework.xml
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\JWT.xml
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Microsoft.Owin.xml
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Microsoft.Owin.Security.xml
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\obj\Debug\Fogvent.Security.csprojResolveAssemblyReference.cache
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\obj\Debug\Fogvent.Security.Migrations.SecurityContextInit.resources
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\obj\Debug\Fogvent.Security.csproj.GenerateResource.Cache
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\obj\Debug\Fogvent.Security.dll
+E:\Projects\netcore-mssql-angular4\Fogvent.Security\obj\Debug\Fogvent.Security.pdb
