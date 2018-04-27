@@ -5,6 +5,7 @@ namespace Fogvent.Data.EF
     public class AppContext : DbContext
     {
         #region Construcor
+        //public AppContext(){ }
         public AppContext(DbContextOptions<AppContext> options) : base(options) { }
         #endregion
 
@@ -33,18 +34,9 @@ namespace Fogvent.Data.EF
         #endregion
 
         #region Overriden Methods
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                Database.SetCommandTimeout(180);
-                optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=Fogvent;Integrated Security=True;");
-            }
-
-        }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //modelBuilder.Entity<Entities.EventAttendee>(ea => ea.HasOne(e=>e.Ticket).WithOne(t=>t.Event));
             base.OnModelCreating(modelBuilder);
         }
         #endregion
