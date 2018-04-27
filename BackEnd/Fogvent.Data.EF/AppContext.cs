@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace Fogvent.Data.EF
 {
@@ -39,7 +38,7 @@ namespace Fogvent.Data.EF
             if (!optionsBuilder.IsConfigured)
             {
                 Database.SetCommandTimeout(180);
-                optionsBuilder.UseSqlServer(@"Server=.\SQLExpress;Database=SchoolDB;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=Fogvent;Integrated Security=True;");
             }
 
         }
@@ -47,7 +46,6 @@ namespace Fogvent.Data.EF
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
         }
         #endregion
     }
