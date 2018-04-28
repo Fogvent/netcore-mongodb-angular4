@@ -5,11 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Configurations\" />
     <Folder Include="Helpers\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="LinqKit.Core" Version="1.1.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fogvent.Data.Common\Fogvent.Data.Common.csproj" />
     <ProjectReference Include="..\Fogvent.Models\Fogvent.Models.csproj" />
   </ItemGroup>
 
