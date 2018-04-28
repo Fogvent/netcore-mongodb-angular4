@@ -11,6 +11,8 @@ namespace Entities
         public Guid UserId { get; set; }
         [Required]
         public Guid EventId { get; set; }
+        [Required]
+        public Guid EventAttendeeId { get; set; }
         [Required,DefaultValue(false)]
         public bool IsReserved { get; set; }
         public DateTime ReservationDate { get; set; }
@@ -19,6 +21,8 @@ namespace Entities
         public virtual User User { get; set; }
         [ForeignKey("EventId")]
         public virtual Event Event { get; set; }
+        [ForeignKey("EventAttendeeId")]
+        public virtual EventAttendee EventAttendee { get; set; }
 
     }
 }
