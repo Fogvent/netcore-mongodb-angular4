@@ -1,12 +1,10 @@
-﻿using System;
+﻿using System.Collections.Generic;
 
 namespace ViewModels
 {
     public class CategoriesList
     {
-        public Guid Id { get; set; }
-        public string Name { get; set; }
-        public DateTime CreatedOn { get; set; }
-        public DateTime ModifiedOn { get; set; }
+        public int Total { get; set; }
+        public ICollection<Category> Items { get; set; }
     }
 }
