@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fogvent.Data.Common", "Fogv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fogvent.Data.EF", "Fogvent.Data.EF\Fogvent.Data.EF.csproj", "{BBBF6ACD-D26D-44AA-B3E7-CE4F5DA8A324}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.Sandbox", "Fogvent.Sandbox\Fogvent.Sandbox.csproj", "{10EC3823-8FEE-4E9E-8BBA-2B6768D7B045}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fogvent.Sandbox", "Fogvent.Sandbox\Fogvent.Sandbox.csproj", "{10EC3823-8FEE-4E9E-8BBA-2B6768D7B045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fogvent.BusinessServices", "Fogvent.BusinessServices\Fogvent.BusinessServices.csproj", "{0CEB3D96-F08D-4BDF-96BE-2033B934AC82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{10EC3823-8FEE-4E9E-8BBA-2B6768D7B045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10EC3823-8FEE-4E9E-8BBA-2B6768D7B045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10EC3823-8FEE-4E9E-8BBA-2B6768D7B045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CEB3D96-F08D-4BDF-96BE-2033B934AC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEB3D96-F08D-4BDF-96BE-2033B934AC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEB3D96-F08D-4BDF-96BE-2033B934AC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEB3D96-F08D-4BDF-96BE-2033B934AC82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +60,7 @@ Global
 		{B5D254C1-5AB8-441D-A311-F24179C5F1F4} = {30D01D21-755D-4601-B7A0-15D933475788}
 		{BBBF6ACD-D26D-44AA-B3E7-CE4F5DA8A324} = {30D01D21-755D-4601-B7A0-15D933475788}
 		{10EC3823-8FEE-4E9E-8BBA-2B6768D7B045} = {B44E5233-711A-42F1-BE39-6F53FFCCE600}
+		{0CEB3D96-F08D-4BDF-96BE-2033B934AC82} = {C4876D18-26F5-46F8-A191-1E6FECE998E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6812C035-C00B-4F8A-A32A-72E4FD10BB7E}
